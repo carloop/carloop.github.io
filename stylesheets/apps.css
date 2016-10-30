@@ -1,0 +1,55 @@
+.entry-subtitle {
+  margin-bottom: 40px;
+}
+
+.apps-list {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.app-card {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  min-height: 160px;
+}
+
+.app-card .content {
+  margin-left: 140px;
+}
+
+.app-card .title {
+  font-size: 1.5rem;
+}
+
+.app-card .screenshot {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.app-card .author {
+  font-style: italic;
+}
+
+.app-card .launch-button {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  width: 120px;
+}
+
+.more-info {
+  margin: 40px 0;
+}
+
+.more-info a {
+  color: #03c4eb;
+}
